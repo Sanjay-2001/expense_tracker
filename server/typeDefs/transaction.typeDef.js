@@ -6,13 +6,13 @@ const transactionTypeDef = `#graphql
         paymentType: String!
         category: String!
         amount: Float!
-        location: String!
+        location: String
         date: String!
     }
 
     type Query{
         transactions:[Transaction!]
-        transaction(transactionID:ID!): Transaction
+        transaction(transactionID: ID!): Transaction
     }
 
     type Mutation{
