@@ -1,0 +1,47 @@
+# Node.js dependencies
+/node_modules
+/package-lock.json
+/yarn.lock
+
+# Logs
+*.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Debug and IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# client (React) specific
+/build
+/.env
+
+# server (Node.js) specific
+/dist
+/.env
+
+# Temporary files
+*.swp
+*.swo
+
+# Coverage directory (for tests)
+/coverage
+
+# Production build folder (for client)
+client/notes/build
+
+# NPM run directory (temporary)
+client/notes-app/node_modules
+client/notes-app/.env
+
+# Ignore all files from server
+server/node_modules
+server/.env
